@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  ##lamest with sort
+  ##lamest with sort!
   #array.sort!
   #array[array.length-1]
   
@@ -17,15 +17,15 @@ def find_max_value(array)
   #end
   #max
   
-  
+  ##while looping
   counter = 0
   max = array[0]
-  while array[counter] do
+  while array[counter] {
     if max < array[counter]
       max = array[counter]
     end
     counter+=1
-  end
+  }
   max
   
 end

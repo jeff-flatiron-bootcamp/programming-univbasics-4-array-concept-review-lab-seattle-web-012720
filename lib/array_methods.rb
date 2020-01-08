@@ -24,6 +24,7 @@ def find_max_value(array)
     {
       max = array[counter]
     }
+  end
   }
   max
   

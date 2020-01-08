@@ -4,8 +4,15 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  array.sort!
-  array[array.length-1]
+  #array.sort!
+  #array[array.length-1]
+  
+  max = array[0]
+  ((array.length)-1).times do |indexer|
+    if max < array[indexer+1]
+      max = array[indexer+1]
+    end
+  end
 end
 
 def find_min_value(array)

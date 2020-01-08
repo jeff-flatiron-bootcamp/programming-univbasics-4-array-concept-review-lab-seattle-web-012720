@@ -4,9 +4,11 @@ end
 
 def find_max_value(array)
   # Add your solution here
+  ##lamest with sort
   #array.sort!
   #array[array.length-1]
   
+  ##.times looping
   #max = array[0]
   #((array.length)-1).times do |indexer|
   #  if max < array[indexer+1]

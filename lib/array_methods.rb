@@ -18,6 +18,14 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  array.sort!
-  array[0]
+  #array.sort!
+  #array[0]
+  
+  min = array[0]
+  ((array.length)-1).times do |indexer|
+    if min > array[indexer+1]
+      min = array[indexer+1]
+    end
+  end
+  min
 end

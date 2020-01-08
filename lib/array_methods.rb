@@ -7,13 +7,18 @@ def find_max_value(array)
   #array.sort!
   #array[array.length-1]
   
-  max = array[0]
-  ((array.length)-1).times do |indexer|
-    if max < array[indexer+1]
-      max = array[indexer+1]
-    end
-  end
-  max
+  #max = array[0]
+  #((array.length)-1).times do |indexer|
+  #  if max < array[indexer+1]
+  #    max = array[indexer+1]
+  #  end
+  #end
+  #max
+  
+  
+  
+  
+  
 end
 
 def find_min_value(array)

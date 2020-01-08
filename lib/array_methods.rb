@@ -35,6 +35,7 @@ def find_min_value(array)
   #array.sort!
   #array[0]
   
+    ##.times looping
   min = array[0]
   ((array.length)-1).times do |indexer|
     if min > array[indexer+1]
